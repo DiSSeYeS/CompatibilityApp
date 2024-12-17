@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonMotherboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать материнскую плату" />
+
+    <Button
+        android:id="@+id/buttonProcessor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать процессор" />
+
+    <Button
+        android:id="@+id/buttonGpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать видеокарту" />
+
+    <Button
+        android:id="@+id/buttonRam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать оперативную память" />
+
+    <Button
+        android:id="@+id/buttonPsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать блок питания" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Проверить совместимость" />
+
+    <TextView
+        android:id="@+id/textViewMotherboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Материнская плата: не выбрано"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewProcessor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Процессор: не выбрано"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewGPU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Видеокарта: не выбрано"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewRAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Оперативная память: не выбрано"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewPsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Блок питания: не выбрано"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Результат будет отображаться здесь"
+        android:textSize="18sp" />
+
+</LinearLayout>
